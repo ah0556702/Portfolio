@@ -1,0 +1,78 @@
+html{
+    background-color: black;
+}
+
+source{
+    width: 250px;
+}
+
+/* div{
+    display: flex;
+    float: right;
+} */
+
+body{
+    background-color: black;
+}
+
+.landing{
+    margin: auto;
+    text-align: center;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+button{
+    border-radius: 50%;
+    border-width: 0cap;
+    background-color: black;
+    background: lighten(black, 50%);
+}
+
+/* LINEAR GRADIENT */
+img { 
+    -webkit-mask-image: linear-gradient(45deg,#f9f9f9 25%,rgba(255, 255, 255, 0.2) 10%,#fcf001 75%);
+    mask-image: linear-gradient(45deg,#fdfdfd 75%,rgba(255, 255, 255, 0.2) 50%,#ffffff 75%);
+    -webkit-mask-size: 900%;
+    mask-size: 900%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
+  }
+  
+  img:hover {
+    transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;
+  }
+
+  .fade-in {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+  }
+  /* END OF LINEAR GRADIENT */
+
+  .portfolio{
+    margin-top: 10px;
+    display: grid;
+    row-gap: 10px;
+    grid-column-start: 1;
+  }
+
+  video{
+    display: inline-grid;
+  }
+
+  .card-group {
+    margin-top: 50px;
+  }
+
+  .card {
+    background-color: black;
+    color: white;
+  }
