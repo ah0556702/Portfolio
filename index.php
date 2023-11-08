@@ -12,7 +12,6 @@
 <body>
     <?php include "View/landing.php"?>
 
-
 </body>
     <script src="scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>

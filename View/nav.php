@@ -6,9 +6,9 @@
   </div>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="resume.php" aria-current="page" href="#">Resume</a>
-        <a class="webdev.php" href="#">Web Development</a>
-        <a class="appdev.php" href="#">App Development</a>
+        <a class="menuItem" aria-current="page" href="#">Resume</a>
+        <a class="menuItem" href="#">Web Development</a>
+        <a class="menuItem" href="#">App Development</a>
       </div>
     </div>
 </nav>

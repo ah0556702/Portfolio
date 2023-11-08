@@ -38,8 +38,10 @@
     </video>
     <div class="card-body">
       <a href="../externalSites/jQueryMovies/index.html"><h5 class="card-title">jQuery</h5></a>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text">This simple page will show the most popular movies in theatre today, and a description is shown when clicking on the title of any movie. This is done using jQuery and vanilla Javascript.</p>
+      <p class="card-text"><small class="text-muted">API: The Movie DataBase</small></p>
     </div>
   </div>
 </div>
+
+<?php include "footer.php"?>

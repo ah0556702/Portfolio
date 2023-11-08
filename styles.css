@@ -70,9 +70,20 @@ img {
 
   .card-group {
     margin-top: 50px;
+    box-shadow: 10px red;
   }
 
   .card {
     background-color: black;
     color: white;
+  
+  }
+
+  .menuItem {
+    margin-right: 50px;
+  }
+
+  footer{
+    color: white;
+    width: 100%;
   }
